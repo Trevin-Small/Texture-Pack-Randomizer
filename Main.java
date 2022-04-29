@@ -3,11 +3,13 @@ import java.util.ArrayList;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 
 public class Main {
+
+  public static final String pathToTextures = "/Users/mac/Documents/Texture-Pack-Randomizer/block/";
+  public static final String pathToTexturePack = "/Users/mac/Documents/Texture-Pack-Randomizer/assets/minecraft/textures/block/";
 
   public static void main(String[] args) {
 
@@ -25,27 +27,25 @@ public class Main {
     ArrayList<Integer> textureMap = new ArrayList<Integer>(numTextures);
 
     // Populate the textureList with 1 through n (number of textures)
-    for(int i = 1; i <= numTextures; i++) {
+    for(int i = 0; i < numTextures; i++) {
       textureList.add(i);
     }
 
 
     // Randomly map texture numbers to the textureList
     Random rand = new Random();
-    int counter = 0;
     while(textureList.size() > 0) {
       int index = rand.nextInt(textureList.size());
       textureMap.add(textureList.remove(index));
-      System.out.println("Texture number: " + Integer.toString(counter) + ", Mapped to texture number: " + Integer.toString(textureMap.get(textureMap.size() - 1)));
-      counter++;
     }
 
     String oldTexturePath = "";
     String newTexturePath = "";
 
     for (int i = 0; i < textureMap.size(); i++) {
+
       // Get the string to the path of the old texture file
-      oldTexturePath = "/Users/mac/Documents/Texture-Pack-Randomizer/block/" + listOfTextures[i].getName();
+      oldTexturePath = pathToTextures + listOfTextures[i].getName();
 
       // Skip over any file that isnt a .png file
       if (!oldTexturePath.substring(oldTexturePath.length() - 4).equals(".png")) {
@@ -53,7 +53,7 @@ public class Main {
       }
 
       // Get the string to the path of the new texture file
-      newTexturePath = "/Users/mac/Documents/Texture-Pack-Randomizer/assets/minecraft/textures/block/" + listOfTextures[textureMap.get(i)].getName();
+      newTexturePath = pathToTexturePack + listOfTextures[textureMap.get(i)].getName();
 
       System.out.println("Old texture: " + oldTexturePath);
       System.out.println("New texture: " + newTexturePath);
