@@ -70,6 +70,13 @@ public class Main {
   }
   */
 
+  // This function might not be doable in any reasonable way.
+  // The issue comes down to some animals having many texture files, while others
+  // may only have one.
+  //
+  // For example, there is no decent way to remap a silverfish on to the ender dragons multiple textures.
+  //
+  // Since it isn't one to one, the problem is weird and doesn't really make sense to try to solve.
   /*
   public static void swapEntities() {
     File file = new File(pathToTexturePack + "entity/");
@@ -200,13 +207,6 @@ public class Main {
 
     }
 
-    // This function might not be doable in any reasonable way.
-    // The issue comes down to some animals having many texture files, while others
-    // may only have one.
-    //
-    // For example, there is no decent way to remap a silverfish on to the ender dragons multiple textures.
-    //
-    // Since it isn't one to one, the problem is weird and doesn't really make sense to try to solve.
     //swapEntities();
 
   }
