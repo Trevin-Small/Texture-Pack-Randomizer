@@ -1,9 +1,10 @@
 # Texture-Pack-Randomizer
 ## A fun experiment that randomly swaps block, item, and particle effect textures in Minecraft.
-![Example 1](https://github.com/Trevin-Small/Texture-Pack-Randomizer/blob/main/examples/wtf.png)
-![Example 2](https://github.com/Trevin-Small/Texture-Pack-Randomizer/blob/main/examples/underwater.png)
+![Example 1](https://github.com/Trevin-Small/Texture-Pack-Randomizer/blob/main/examples/world.png)
+![Example 2](https://github.com/Trevin-Small/Texture-Pack-Randomizer/blob/main/examples/mansion.png)
 ![Example 3](https://github.com/Trevin-Small/Texture-Pack-Randomizer/blob/main/examples/house.png)
-![Example 4](https://github.com/Trevin-Small/Texture-Pack-Randomizer/blob/main/examples/skull.png)
+![Example 4](https://github.com/Trevin-Small/Texture-Pack-Randomizer/blob/main/examples/example.png)
+![Example 5](https://github.com/Trevin-Small/Texture-Pack-Randomizer/blob/main/examples/items.png)
 
 ### As you can see, the result is.... chaotic.
 **The game is nearly unplayable like this 😂**  
@@ -24,7 +25,7 @@
 
 # Creeper pig
 #### (This was done manually as a joke! The java program does not randomize entity textures.)
-![Example 5](https://github.com/Trevin-Small/Texture-Pack-Randomizer/blob/main/examples/creeper.png)
+![Example 6](https://github.com/Trevin-Small/Texture-Pack-Randomizer/blob/main/examples/creeper.png)
 
 # Note on Entity Textures
 A (feeble) attempt was made at randomizing the textures between entities.  
