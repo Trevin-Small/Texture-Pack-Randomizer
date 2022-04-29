@@ -170,7 +170,7 @@ public class Main {
       for (int i = 0; i < textureMap.size(); i++) {
 
         // Get the string to the path of the old texture file
-        oldTexturePath = pathToTextures + textureTypes[textureType] + listOfTextures[textureMap.get(i)].getName();
+        oldTexturePath = pathToTextures + textureTypes[textureType] + listOfTextures[i].getName();
 
         // Skip over any file that isnt a .png file
         if (!oldTexturePath.substring(oldTexturePath.length() - 4).equals(".png")) {

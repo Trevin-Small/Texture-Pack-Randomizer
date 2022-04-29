@@ -22,7 +22,8 @@
 - Compress the files into a ```.zip``` file.
 ### Thats it! The compressed file can be used as a texture pack in (Java) Minecraft.
 
-# Creeper pig (This was done manually as a joke! The java program does not randomize entity textures.)
+# Creeper pig
+#### (This was done manually as a joke! The java program does not randomize entity textures.)
 ![Example 5](https://github.com/Trevin-Small/Texture-Pack-Randomizer/blob/main/examples/creeper.png)
 
 # Note on Entity Textures
@@ -33,4 +34,4 @@ expects all of them to be present, while other entities may only have one file.
 
 Remapping the files becomes harder since it isnt one-to-one. I may revisit this eventually though.  
 
-For now, I live in peace (or constant fear?) with the creeper pig.
+For now, I live in peace (or constant fear?) with the manually created creeper pig.
