@@ -1,5 +1,5 @@
 # Texture-Pack-Randomizer
-## A fun experiment that randomly swaps block textures in Minecraft.
+## A fun experiment that randomly swaps block, item, and particle effect textures in Minecraft.
 ![Example 1](https://github.com/Trevin-Small/Texture-Pack-Randomizer/blob/main/examples/wtf.png)
 ![Example 2](https://github.com/Trevin-Small/Texture-Pack-Randomizer/blob/main/examples/underwater.png)
 ### As you can see, the result is.... chaotic.
@@ -19,3 +19,10 @@
 - Compress the files into a ```.zip``` file.
 ### Thats it! The compressed file can be used as a texture pack in (Java) Minecraft.
 
+# Note on Entity Textures
+A (feeble) attempt was made at randomizing the textures between entities.  
+
+This problem is harder to solve, since some entities have many files and minecraft
+expects all of them to be present, while other entities may only have one file.  
+
+Remapping the files becomes harder since it isnt one-to-one. I may revisit this eventually though.
